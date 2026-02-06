@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Aggressive Tab Manager",
+  "version": "1.0",
+  "description": "Keeps only the 3 most recently active tabs loaded, unloads the rest",
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
+
