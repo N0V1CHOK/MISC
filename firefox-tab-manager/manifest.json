@@ -10,6 +10,13 @@
   ],
   "background": {
     "scripts": ["background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "firefox-tab-manager@local",
+      "strict_min_version": "109.0",
+      "data_collection_permissions": "none"
+    }
   }
 }
 
